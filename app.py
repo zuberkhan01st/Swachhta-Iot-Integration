@@ -4,12 +4,16 @@ import cloudinary.uploader
 import time
 import serial
 import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Cloudinary configuration
 cloudinary.config(
-    cloud_name="",
-    api_key="",
-    api_secret=""
+    cloud_name=os.getenv("Cloud_Name"),
+    api_key=os.getenv("api_key"),
+    api_secret=os.getenv("api_secret")
 )
 
 # Arduino serial port setup
