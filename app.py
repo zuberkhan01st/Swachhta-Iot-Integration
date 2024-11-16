@@ -7,9 +7,9 @@ import os
 
 # Cloudinary configuration
 cloudinary.config(
-    cloud_name="djelnepic",
-    api_key="478999451717814",
-    api_secret="C_9m-GBrzfAspRuUacCRnkMgFwg"
+    cloud_name="",
+    api_key="",
+    api_secret=""
 )
 
 # Arduino serial port setup
