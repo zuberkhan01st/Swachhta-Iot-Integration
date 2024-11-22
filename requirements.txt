@@ -2,3 +2,4 @@ cloudinary
 opencv-python
 pyserial
 serial 
+gunicorn
